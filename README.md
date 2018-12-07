@@ -1,2 +1,2 @@
 # NeonBot
-Games + Music + public commands + more...
+`Games + Music + public commands + more...`
