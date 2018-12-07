@@ -1,2 +1,2 @@
-# dmginb
-fbto
+# NeonBot
+Games + Music + public commands + more...
