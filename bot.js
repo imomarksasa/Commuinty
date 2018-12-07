@@ -29,7 +29,7 @@ const sql = require("sqlite");
 
 
 client.on("message", message => {
-	var prefix = "-";
+	var prefix = "r!";
  if (message.content === "-help**)(") {
   const embed = new Discord.RichEmbed() 
       .setColor("#000000") 
@@ -3232,5 +3232,5 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 }       });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login("NTIwNTE3NzM5NDU5Mzc5MjAw.DuvCEQ.V5AFr1jV-Z8SEZt6iNWMQhxgX_c");
 			      
