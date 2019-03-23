@@ -1214,7 +1214,7 @@ message.react("❌")
                         .addField(`${message.author.username}`, `لم تقم بدعوة أي شخص لهذة السيرفر`)
 
                        message.channel.send({ embed: embed });
-                        return;
+                        return;F
                     }
         }
         if(message.content.startsWith(prefix + 'invite-codes')) {
@@ -1232,7 +1232,7 @@ codes.push(`discord.gg/${invite.code}`)
 if (codes.length < 0) {
     var embed = new Discord.RichEmbed()
 .setColor("#000000")
-.addField(`Your invite codes in ${message.guild.name}`, `You currently don't have any active invites! Please create an invite and start inviting, then you will be able to see your codes here!`)
+.addField(`Your invite codes in ${message.guild.name}`, `You currently don't have any active FFites! Please create an invite and start inviting, then you will be able to see your codes here!`)
 message.author.send({ embed: embed });
 return;
 } else {
@@ -2506,7 +2506,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=515616512112066560&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=493091181299892239&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
