@@ -3012,9 +3012,9 @@ client.on("guildMemberAdd", member => {
       
       const w = ['w.png'
 	                         `w1.png`
-				 'w2.png'
-				 'w3.png'
-				 'w4.png'
+				 `w2.png`
+				 `w3.png`
+				 `w4.png`
 				 'w5.png'];
       
               let Image = Canvas.Image,
