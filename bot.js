@@ -3015,7 +3015,7 @@ client.on("guildMemberAdd", member => {
 				 `w2.png`
 				 `w3.png`
 				 `w4.png`
-				 'w5.png'];
+				 `w5.png`];
       
               let Image = Canvas.Image,
                   canvas = new Canvas(557, 241),
